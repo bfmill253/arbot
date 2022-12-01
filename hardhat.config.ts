@@ -19,7 +19,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
     console.log(account.address);
   }
 });
-const BSC_RPC =  'https://morning-dark-frost.bsc.quiknode.pro/849fd344470317da1f690047ef08995d43764e88/';
+const BSC_RPC =  process.env.BSC_RPC;
 import deployer from './.secret';
 
 // You need to export an object to set up your config
