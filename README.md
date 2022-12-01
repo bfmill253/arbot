@@ -14,7 +14,9 @@ This code is experimental, so you may see redundant code and calculations. This 
 The code is split into 3 main parts:
 
 `main.ts`: Entrypoint to run the bot
+
 `runner.ts`: Calculates arbitrage opportunities and executes the trade
+
 `strategy.ts`: Determines when and how to execute the `Runner`
 
 The rest of the code is helper functions and test cases used to analyze the results of the strategies on the testnet.
